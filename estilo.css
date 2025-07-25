@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir&family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap');
+*{margin:0; padding:0;}
+
+body{
+	background-color: #a83621;
+}
+
+header, img{
+	width: 100%;
+	height: 500px;
+}
+
+a, ul{
+	font: 1rem 'roboto', sans-serif;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+}
+
+article, p, div{
+	font: 1rem 'avenir', monospace;
+	color: silver;
+	text-align: center;
+	line-height: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+
+input{
+	font: 1rem 'avenir', monospace, bold;
+	text-align: center;
+	position: relative;
+	border-radius: 20px;
+	line-height: 20px;
+}
+
+.pag-menu{
+	font: 1.0rem 'avenir', serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: snow;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 20px;
+	line-height: 20px;
+}
+
+.titulo{
+	font: 2rem 'roboto', monospace;
+	color: snow;
+	text-align: center;
+	margin: 30px;
+	padding: 20px;
+}
+
+.texto{
+ 	font: 1rem 'roboto', monospace;
+	color: silver;
+	text-align: justifyr;
+	padding-bottom: 2px;
+}
+
+.botoes{
+	font: 1rem 'roboto', monospace;
+	background-color: black;
+	color: snow;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	padding: 5px;
+	margin: 5px;
+    border-radius: 20px;
+	line-height: 20px;
+}
+
+#img1{
+	width: 50%;
+	height: 400px;
+	margin-left: 350px;
+}
+
+#pag-aluno{
+	font: 2rem 'roboto', monospace;
+	color: snow;
+	text-align: center;
+	margin: 30px;
+	padding: 20px;
+}
+
+#login{
+	font: 1rem 'roboto', monospace;
+ 	font-style: initial;
+	color: silver;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 20px;
+	line-height: 20px;
+}
+
+#icon-insta{
+	width: 5%;
+	height: 50px;
+}
+
+#icon-wpp{
+	width: 5%;
+	height: 50px;
+}
+
+#rodape{
+	font: 1rem 'roboto', sans-serif;
+	font-weight: bold;
+	color: silver;
+	text-align: center;
+}
+
+#link-rodape{
+	font: 1rem 'roboto', monospace;
+	font-weight: bold;
+	font-style: initial;
+	color: black;
+	text-align: center;
+}
+
+#btn-topo{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 2px;
+}
